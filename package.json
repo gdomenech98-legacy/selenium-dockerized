@@ -1,0 +1,30 @@
+{
+  "name": "selenium-dockerized",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "docker-compose -f ./docker-compose.yml up",
+    "stop": "docker-compose -f ./docker-compose.yml down",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdomenech98/selenium-dockerized.git"
+  },
+  "keywords": [
+    "selenium",
+    "headless-browser",
+    "node",
+    "docker"
+  ],
+  "author": "gdomenech98",
+  "license": "MIT",
+  "devDependencies": {
+    "selenium-webdriver": "~4.16.0"
+  },
+  "bugs": {
+    "url": "https://github.com/gdomenech98/selenium-dockerized/issues"
+  },
+  "homepage": "https://github.com/gdomenech98/selenium-dockerized#readme"
+}
